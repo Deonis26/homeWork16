@@ -1,4 +1,4 @@
-package by.corp.LDA;
+package by.corp.LDA.homeworkTask1;
 
 public class Student {
 
