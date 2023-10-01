@@ -2,7 +2,7 @@ package by.corp.LDA.homeworkTask1;
 
 public class Main {
     public static void main(String[] args) {
-        Student student1 = new Student("Артур", "Петров", 11, 111L, (short) 123);
+        Student student1 = new Student("Артур", "Петров", 11223, 11111111L, (short) 123);
         Student student2 = new Student("Артур", "Петров", 1, 111L, (short) 123);
         boolean a = student1.equals(student2);
         System.out.println(a);

@@ -19,12 +19,12 @@ public class Student {
     }
 
     public String toString() {
-        return "Имя: "+name+", Фамилия: "+ sureName +"Возраст: " + age + ", Номер карты: " + id + "успеваемость: " + academicPerformance + ".";
+        return "Имя: "+name+", Фамилия: "+ sureName +" Возраст: " + age + ", Номер карты: " + id + " Успеваемость: " + academicPerformance + ".";
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode()+sureName.hashCode()+ age*9 + (int) id + (int) academicPerformance;
+        return name.hashCode()+sureName.hashCode()*99+ age*9 + (int) id + (int) academicPerformance;
     }
     public String getName(){
         return name;
